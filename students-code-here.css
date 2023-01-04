@@ -1,0 +1,27 @@
+.funny-glasses { /* .funny-glasses will select ONLY the class that was named that. */
+    position: relative;
+    left: 212px;
+    bottom: 110px
+    
+}
+
+.bandana {
+    position: absolute ; /* we need to figure out how to make it move */
+    top: 175px; 
+    left: 115px;
+}
+
+.pawprint {
+    position: fixed;
+    top: 45px;
+    left: 65px
+}
+
+.luna {
+    position: sticky;
+    left: 10px;
+}
+
+.top-hat {
+    z-index: 1;
+}
